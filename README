@@ -1,0 +1,13 @@
+Just an experiment to intelligently import tweets into Facebook
+
+Public domain, enjoy it.
+
+To get it to work, you will need to create a FB app so you can have its app
+secret and app ID. Edit smarttweets.go to add these.
+
+You will also need to go through FB oauth authorization process manually
+as this code doesn't include these steps. As long as you request offline_access
+permissions, you only need to do this once. Look at the facebook documentation.
+Once you get the access token, edit smarttweets accordingly.
+
+Yes, not friendly... as I said, this was mostly an experiment.
